@@ -1,0 +1,9 @@
+2020-05-28 08:20:51.1427|WARN|EmployeeManagement.Controllers.ErrorController| 404 error occured. Path = /favicon.ico and Querystring = 
+2020-05-28 08:22:22.0525|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 4283c0f7-a0d1-40b6-871f-61266fe1916f.
+2020-05-28 08:22:22.1335|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 4283c0f7-a0d1-40b6-871f-61266fe1916f failed to provide the correct password.
+2020-05-28 08:50:03.1693|TRACE|EmployeeManagement.Models.SQLEmployeeRepository|Trace Log
+2020-05-28 08:50:03.2403|DEBUG|EmployeeManagement.Models.SQLEmployeeRepository|Debug Log
+2020-05-28 08:50:03.2403|INFO|EmployeeManagement.Models.SQLEmployeeRepository|Information Log
+2020-05-28 08:50:03.2403|WARN|EmployeeManagement.Models.SQLEmployeeRepository|Warning Log
+2020-05-28 08:50:03.2403|ERROR|EmployeeManagement.Models.SQLEmployeeRepository|Error Log
+2020-05-28 08:50:03.2403|FATAL|EmployeeManagement.Models.SQLEmployeeRepository|Critical Log

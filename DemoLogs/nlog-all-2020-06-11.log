@@ -1,0 +1,1040 @@
+2020-06-11 09:22:57.9572|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Pariksheet\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-11 09:38:49.8776|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Pariksheet\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-11 09:38:50.4486|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:49266/  0
+2020-06-11 09:38:50.4486|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/  
+2020-06-11 09:38:50.5146|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 64.1937ms 200 
+2020-06-11 09:38:50.8287|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller EmployeeManagement.Controllers.HomeController (EmployeeManagement).
+2020-06-11 09:38:51.1687|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:38:51.1687|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.5099ms.
+2020-06-11 09:38:51.2277|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-11 09:38:51.7017|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2020-06-11 09:38:52.7808|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Department], [e].[Email], [e].[Name], [e].[PhotoPath]
+FROM [Employees] AS [e]
+2020-06-11 09:38:52.9758|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 1787.554ms.
+2020-06-11 09:38:52.9758|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) in 2147.3452ms
+2020-06-11 09:38:52.9878|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2540.6482ms 200 text/html; charset=utf-8
+2020-06-11 09:38:53.0498|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js  
+2020-06-11 09:38:53.0498|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/lib/jquery-validate/jquery.validate.js  
+2020-06-11 09:38:53.0658|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/jquery-validate/jquery.validate.js was not modified
+2020-06-11 09:38:53.0658|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js was not modified
+2020-06-11 09:38:53.0658|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 20.714ms 304 application/javascript
+2020-06-11 09:38:53.0658|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 20.714ms 304 application/javascript
+2020-06-11 09:38:53.3688|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/favicon.ico  
+2020-06-11 09:38:53.3688|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.4096ms 404 
+2020-06-11 09:39:31.5540|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/account/login  
+2020-06-11 09:39:31.5950|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller EmployeeManagement.Controllers.AccountController (EmployeeManagement).
+2020-06-11 09:39:31.6090|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AccountController.Login (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:39:31.6160|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AccountController.Login (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 6.2582ms.
+2020-06-11 09:39:31.6280|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login.
+2020-06-11 09:39:31.7090|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 91.6859ms.
+2020-06-11 09:39:31.7090|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AccountController.Login (EmployeeManagement) in 114.656ms
+2020-06-11 09:39:31.7090|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 156.8598ms 200 text/html; charset=utf-8
+2020-06-11 09:39:41.5426|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:44327/account/externallogin application/x-www-form-urlencoded 200
+2020-06-11 09:39:41.5426|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "ExternalLogin", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ExternalLogin(System.String, System.String) on controller EmployeeManagement.Controllers.AccountController (EmployeeManagement).
+2020-06-11 09:39:41.5976|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AccountController.ExternalLogin (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:39:41.5976|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AccountController.ExternalLogin (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ChallengeResult in 4.2385ms.
+2020-06-11 09:39:41.5976|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (Facebook).
+2020-06-11 09:39:41.6136|INFO|Microsoft.AspNetCore.Authentication.Facebook.FacebookHandler|AuthenticationScheme: Facebook was challenged.
+2020-06-11 09:39:41.6136|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AccountController.ExternalLogin (EmployeeManagement) in 66.6529ms
+2020-06-11 09:39:41.6136|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 72.5644ms 302 
+2020-06-11 09:39:54.7383|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/signin-facebook?code=AQB_HI1A6uyorQ_9eQukdqeT5RZdo1Go3EHmYTwZqRMpjPKeCfYYV7pgVy5nKjplHWV35BwiTXtNwj-QWzjR1ZFoyed7q4GCPQZGK0uh-iUiB_ikVORNK6Eo_zd0oTK_nZCNXrnvFQztKZL7sLWEZQASV3pWpwpU7BbOnrkeokt8L1YcMRrE8R_0FBHiUTqLiA-uPV1549yLhZLUONwiqahmhBxYRYGZ8T5WTmzJJMBKIEZL8a5HTQLhCgweytfeENlBQc2hDowARsFTl8pcDOfPa1YLYThkjbAXB1CXBUg_G0AwSGgADg-k3CAGLJs3qVYTVLC_De3la9tE8txf4d4mu7WNJ4Xex_PxYj8GtY2GzQ&state=CfDJ8OppLAnSpZBBnOns_WVxN4LaEsMsiwNTlivOufImGYQOIMZk744t2eDbIvLLGJRQax4uCa1KJJu9HSHlI3a5niRv-qRv7DzirRcSWUum5BhmFjMZE2-SVdW61RGnm6fF0DhSOANLbBSeOd0qwN4_9jDLkihpPdSypGZg1TLfHCNu8LSlpRPYfo4B8SBQPcK3ZgO83EEUYxxduQWdQVsdZq8WT5M9_sjzMk76ZwSdnxV3uKCAT91PAGj_wAkSTnSTY6GlsmUOmRGSq26eMvOSO4E  
+2020-06-11 09:39:56.2634|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.External signed in.
+2020-06-11 09:39:56.2634|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1535.1011ms 302 
+2020-06-11 09:39:56.2794|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/Account/ExternalloginCallback  
+2020-06-11 09:39:56.2794|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "ExternalLoginCallback", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExternalLoginCallback(System.String, System.String) on controller EmployeeManagement.Controllers.AccountController (EmployeeManagement).
+2020-06-11 09:39:56.2794|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AccountController.ExternalLoginCallback (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:39:56.4074|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (20ms) [Parameters=[@__loginProvider_0='?' (Size = 450), @__providerKey_1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [userLogin].[LoginProvider], [userLogin].[ProviderKey], [userLogin].[ProviderDisplayName], [userLogin].[UserId]
+FROM [AspNetUserLogins] AS [userLogin]
+WHERE ([userLogin].[LoginProvider] = @__loginProvider_0) AND ([userLogin].[ProviderKey] = @__providerKey_1)
+2020-06-11 09:39:56.4704|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (10ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[City], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+2020-06-11 09:39:56.5074|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[City], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-06-11 09:39:56.6444|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [City], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+2020-06-11 09:39:56.6744|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__loginProvider_0='?' (Size = 450), @__providerKey_1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [userLogin].[LoginProvider], [userLogin].[ProviderKey], [userLogin].[ProviderDisplayName], [userLogin].[UserId]
+FROM [AspNetUserLogins] AS [userLogin]
+WHERE ([userLogin].[LoginProvider] = @__loginProvider_0) AND ([userLogin].[ProviderKey] = @__providerKey_1)
+2020-06-11 09:39:56.6914|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[City], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-06-11 09:39:56.7064|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 450), @p2='?' (Size = 4000), @p3='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserLogins] ([LoginProvider], [ProviderKey], [ProviderDisplayName], [UserId])
+VALUES (@p0, @p1, @p2, @p3);
+2020-06-11 09:39:56.7144|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[@p15='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p16='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [City] = @p1, [ConcurrencyStamp] = @p2, [Email] = @p3, [EmailConfirmed] = @p4, [LockoutEnabled] = @p5, [LockoutEnd] = @p6, [NormalizedEmail] = @p7, [NormalizedUserName] = @p8, [PasswordHash] = @p9, [PhoneNumber] = @p10, [PhoneNumberConfirmed] = @p11, [SecurityStamp] = @p12, [TwoFactorEnabled] = @p13, [UserName] = @p14
+WHERE [Id] = @p15 AND [ConcurrencyStamp] = @p16;
+SELECT @@ROWCOUNT;
+2020-06-11 09:39:56.7684|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-11 09:39:56.8274|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-06-11 09:39:56.8384|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed in.
+2020-06-11 09:39:56.8384|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AccountController.ExternalLoginCallback (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult in 552.4617ms.
+2020-06-11 09:39:56.8384|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.LocalRedirectResultExecutor|Executing LocalRedirectResult, redirecting to /.
+2020-06-11 09:39:56.8534|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AccountController.ExternalLoginCallback (EmployeeManagement) in 564.2602ms
+2020-06-11 09:39:56.8534|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 576.6454ms 302 
+2020-06-11 09:39:56.8534|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/  
+2020-06-11 09:39:56.8784|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller EmployeeManagement.Controllers.HomeController (EmployeeManagement).
+2020-06-11 09:39:56.8784|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:39:56.8784|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0478ms.
+2020-06-11 09:39:56.8784|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-11 09:39:56.8784|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Department], [e].[Email], [e].[Name], [e].[PhotoPath]
+FROM [Employees] AS [e]
+2020-06-11 09:39:56.8874|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 7.8485ms.
+2020-06-11 09:39:56.8874|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) in 9.2528ms
+2020-06-11 09:39:56.8874|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 21.931ms 200 text/html; charset=utf-8
+2020-06-11 09:40:12.5043|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:44327/account/logout application/x-www-form-urlencoded 225
+2020-06-11 09:40:12.5043|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller EmployeeManagement.Controllers.AccountController (EmployeeManagement).
+2020-06-11 09:40:12.5263|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:40:12.5263|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AccountController.Logout (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:40:12.5373|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed out.
+2020-06-11 09:40:12.5373|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.External signed out.
+2020-06-11 09:40:12.5373|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-06-11 09:40:12.5373|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AccountController.Logout (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 14.9167ms.
+2020-06-11 09:40:12.5373|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-06-11 09:40:12.5373|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AccountController.Logout (EmployeeManagement) in 31.3844ms
+2020-06-11 09:40:12.5373|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 44.6574ms 302 
+2020-06-11 09:40:12.5483|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM0DNKIP2LAB", Request id "0HM0DNKIP2LAB:00000006": the application completed without reading the entire request body.
+2020-06-11 09:40:12.5483|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/  
+2020-06-11 09:40:12.5483|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller EmployeeManagement.Controllers.HomeController (EmployeeManagement).
+2020-06-11 09:40:12.5483|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:40:12.5483|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0235ms.
+2020-06-11 09:40:12.5483|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-11 09:40:12.5483|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Department], [e].[Email], [e].[Name], [e].[PhotoPath]
+FROM [Employees] AS [e]
+2020-06-11 09:40:12.5633|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 4.3523ms.
+2020-06-11 09:40:12.5633|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) in 6.6931ms
+2020-06-11 09:40:12.5633|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.4089ms 200 text/html; charset=utf-8
+2020-06-11 09:40:13.6754|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/account/login  
+2020-06-11 09:40:13.6754|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller EmployeeManagement.Controllers.AccountController (EmployeeManagement).
+2020-06-11 09:40:13.6754|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AccountController.Login (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:40:13.6754|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AccountController.Login (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0842ms.
+2020-06-11 09:40:13.6754|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login.
+2020-06-11 09:40:13.6754|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 3.4526ms.
+2020-06-11 09:40:13.6754|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AccountController.Login (EmployeeManagement) in 5.7998ms
+2020-06-11 09:40:13.6754|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.0414ms 200 text/html; charset=utf-8
+2020-06-11 09:40:27.8092|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:44327/account/login application/x-www-form-urlencoded 246
+2020-06-11 09:40:27.8202|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(EmployeeManagement.ViewModels.LoginViewModel, System.String) on controller EmployeeManagement.Controllers.AccountController (EmployeeManagement).
+2020-06-11 09:40:27.8342|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AccountController.Login (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:40:27.8342|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[City], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-06-11 09:40:27.9112|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-11 09:40:27.9172|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-06-11 09:40:27.9362|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+2020-06-11 09:40:27.9632|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AspNetRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0
+2020-06-11 09:40:27.9632|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+2020-06-11 09:40:27.9632|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AspNetRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0
+2020-06-11 09:40:27.9632|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed in.
+2020-06-11 09:40:27.9762|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AccountController.Login (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 141.6287ms.
+2020-06-11 09:40:27.9762|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-06-11 09:40:27.9762|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AccountController.Login (EmployeeManagement) in 156.3706ms
+2020-06-11 09:40:27.9762|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 169.5695ms 302 
+2020-06-11 09:40:27.9762|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/  
+2020-06-11 09:40:27.9762|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller EmployeeManagement.Controllers.HomeController (EmployeeManagement).
+2020-06-11 09:40:27.9762|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:40:27.9762|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0213ms.
+2020-06-11 09:40:27.9762|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-11 09:40:27.9762|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Department], [e].[Email], [e].[Name], [e].[PhotoPath]
+FROM [Employees] AS [e]
+2020-06-11 09:40:27.9942|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 6.8244ms.
+2020-06-11 09:40:27.9942|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) in 8.7397ms
+2020-06-11 09:40:27.9942|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11.1455ms 200 text/html; charset=utf-8
+2020-06-11 09:40:30.8064|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/Administration/ListUsers  
+2020-06-11 09:40:30.8144|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "ListUsers", controller = "Administration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListUsers() on controller EmployeeManagement.Controllers.AdministrationController (EmployeeManagement).
+2020-06-11 09:40:30.8144|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:40:30.8144|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:40:30.8144|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AdministrationController.ListUsers (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:40:30.8144|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AdministrationController.ListUsers (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.7757ms.
+2020-06-11 09:40:30.8144|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view ListUsers.
+2020-06-11 09:40:30.8454|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[AccessFailedCount], [a].[City], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+2020-06-11 09:40:30.8454|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[AccessFailedCount], [a].[City], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+2020-06-11 09:40:30.8614|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view ListUsers executed in 41.2492ms.
+2020-06-11 09:40:30.8614|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AdministrationController.ListUsers (EmployeeManagement) in 47.0832ms
+2020-06-11 09:40:30.8614|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 56.3472ms 200 text/html; charset=utf-8
+2020-06-11 09:40:30.8914|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/js/CustomScript.js  
+2020-06-11 09:40:30.8924|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /js/CustomScript.js was not modified
+2020-06-11 09:40:30.8924|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.3579ms 304 application/javascript
+2020-06-11 09:40:34.1586|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/Administration/EditUser/3072beda-7efc-40e2-b484-041d5a676147  
+2020-06-11 09:40:34.1586|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "EditUser", controller = "Administration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditUser(System.String) on controller EmployeeManagement.Controllers.AdministrationController (EmployeeManagement).
+2020-06-11 09:40:34.1586|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:40:34.1686|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:40:34.1686|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AdministrationController.EditUser (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:40:34.1926|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[City], [e].[ConcurrencyStamp], [e].[Email], [e].[EmailConfirmed], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-06-11 09:40:34.2006|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-11 09:40:34.2006|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-06-11 09:40:34.2006|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AdministrationController.EditUser (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 35.6628ms.
+2020-06-11 09:40:34.2006|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view EditUser.
+2020-06-11 09:40:34.2596|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view EditUser executed in 53.8581ms.
+2020-06-11 09:40:34.2596|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AdministrationController.EditUser (EmployeeManagement) in 92.7627ms
+2020-06-11 09:40:34.2616|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 104.8481ms 200 text/html; charset=utf-8
+2020-06-11 09:40:36.1157|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/Administration/manageuserroles?userId=3072beda-7efc-40e2-b484-041d5a676147  
+2020-06-11 09:40:36.1237|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "ManageUserRoles", controller = "Administration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ManageUserRoles(System.String) on controller EmployeeManagement.Controllers.AdministrationController (EmployeeManagement).
+2020-06-11 09:40:36.1237|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:40:36.1237|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:40:36.1237|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:40:36.1237|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AdministrationController.ManageUserRoles (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:40:36.1387|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[City], [e].[ConcurrencyStamp], [e].[Email], [e].[EmailConfirmed], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-06-11 09:40:36.1387|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+2020-06-11 09:40:36.1667|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+2020-06-11 09:40:36.1857|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2020-06-11 09:40:36.1857|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+2020-06-11 09:40:36.1857|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2020-06-11 09:40:36.1967|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+2020-06-11 09:40:36.1967|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2020-06-11 09:40:36.1967|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AdministrationController.ManageUserRoles (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 71.6257ms.
+2020-06-11 09:40:36.1967|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view ManageUserRoles.
+2020-06-11 09:40:36.2477|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view ManageUserRoles executed in 44.7634ms.
+2020-06-11 09:40:36.2477|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AdministrationController.ManageUserRoles (EmployeeManagement) in 123.5082ms
+2020-06-11 09:40:36.2477|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 134.0816ms 200 text/html; charset=utf-8
+2020-06-11 09:40:39.7049|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:44327/Administration/manageuserroles?userId=3072beda-7efc-40e2-b484-041d5a676147 application/x-www-form-urlencoded 553
+2020-06-11 09:40:39.7179|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "ManageUserRoles", controller = "Administration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ManageUserRoles(System.Collections.Generic.List`1[EmployeeManagement.ViewModels.UserRolesViewModel], System.String) on controller EmployeeManagement.Controllers.AdministrationController (EmployeeManagement).
+2020-06-11 09:40:39.7179|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:40:39.7179|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:40:39.7179|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:40:39.7279|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AdministrationController.ManageUserRoles (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:40:39.7279|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[City], [e].[ConcurrencyStamp], [e].[Email], [e].[EmailConfirmed], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-06-11 09:40:39.7389|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-06-11 09:40:39.7389|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[City], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-06-11 09:40:39.7389|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@p15='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p16='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [City] = @p1, [ConcurrencyStamp] = @p2, [Email] = @p3, [EmailConfirmed] = @p4, [LockoutEnabled] = @p5, [LockoutEnd] = @p6, [NormalizedEmail] = @p7, [NormalizedUserName] = @p8, [PasswordHash] = @p9, [PhoneNumber] = @p10, [PhoneNumberConfirmed] = @p11, [SecurityStamp] = @p12, [TwoFactorEnabled] = @p13, [UserName] = @p14
+WHERE [Id] = @p15 AND [ConcurrencyStamp] = @p16;
+SELECT @@ROWCOUNT;
+2020-06-11 09:40:39.7589|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+2020-06-11 09:40:39.7589|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450), @__get_Item_1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[UserId], [e].[RoleId]
+FROM [AspNetUserRoles] AS [e]
+WHERE ([e].[UserId] = @__get_Item_0) AND ([e].[RoleId] = @__get_Item_1)
+2020-06-11 09:40:39.7749|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedRoleName_0
+2020-06-11 09:40:39.7849|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[City], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-06-11 09:40:39.7849|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([UserId], [RoleId])
+VALUES (@p0, @p1);
+2020-06-11 09:40:39.7849|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@p15='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p16='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [City] = @p1, [ConcurrencyStamp] = @p2, [Email] = @p3, [EmailConfirmed] = @p4, [LockoutEnabled] = @p5, [LockoutEnd] = @p6, [NormalizedEmail] = @p7, [NormalizedUserName] = @p8, [PasswordHash] = @p9, [PhoneNumber] = @p10, [PhoneNumberConfirmed] = @p11, [SecurityStamp] = @p12, [TwoFactorEnabled] = @p13, [UserName] = @p14
+WHERE [Id] = @p15 AND [ConcurrencyStamp] = @p16;
+SELECT @@ROWCOUNT;
+2020-06-11 09:40:39.7849|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AdministrationController.ManageUserRoles (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 65.4342ms.
+2020-06-11 09:40:39.7849|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /Administration/EditUser/3072beda-7efc-40e2-b484-041d5a676147.
+2020-06-11 09:40:39.7849|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AdministrationController.ManageUserRoles (EmployeeManagement) in 76.5404ms
+2020-06-11 09:40:39.7849|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 90.8371ms 302 
+2020-06-11 09:40:39.8029|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/Administration/EditUser/3072beda-7efc-40e2-b484-041d5a676147  
+2020-06-11 09:40:39.8029|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "EditUser", controller = "Administration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditUser(System.String) on controller EmployeeManagement.Controllers.AdministrationController (EmployeeManagement).
+2020-06-11 09:40:39.8029|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:40:39.8029|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:40:39.8029|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AdministrationController.EditUser (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:40:39.8029|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[City], [e].[ConcurrencyStamp], [e].[Email], [e].[EmailConfirmed], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-06-11 09:40:39.8029|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-11 09:40:39.8159|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-06-11 09:40:39.8159|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AdministrationController.EditUser (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 8.9514ms.
+2020-06-11 09:40:39.8159|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view EditUser.
+2020-06-11 09:40:39.8159|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view EditUser executed in 2.6653ms.
+2020-06-11 09:40:39.8159|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AdministrationController.EditUser (EmployeeManagement) in 15.2819ms
+2020-06-11 09:40:39.8159|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 18.2992ms 200 text/html; charset=utf-8
+2020-06-11 09:40:41.7560|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/Administration/ManageUserClaims?userId=3072beda-7efc-40e2-b484-041d5a676147  
+2020-06-11 09:40:41.7670|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "ManageUserClaims", controller = "Administration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ManageUserClaims(System.String) on controller EmployeeManagement.Controllers.AdministrationController (EmployeeManagement).
+2020-06-11 09:40:41.7670|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:40:41.7670|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:40:41.7670|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AdministrationController.ManageUserClaims (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:40:41.7670|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[City], [e].[ConcurrencyStamp], [e].[Email], [e].[EmailConfirmed], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-06-11 09:40:41.7670|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-11 09:40:41.7830|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AdministrationController.ManageUserClaims (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 13.6407ms.
+2020-06-11 09:40:41.7830|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view ManageUserClaims.
+2020-06-11 09:40:41.8190|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view ManageUserClaims executed in 35.8684ms.
+2020-06-11 09:40:41.8190|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AdministrationController.ManageUserClaims (EmployeeManagement) in 52.2121ms
+2020-06-11 09:40:41.8190|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 65.2461ms 200 text/html; charset=utf-8
+2020-06-11 09:40:46.1643|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:44327/Administration/ManageUserClaims?userId=3072beda-7efc-40e2-b484-041d5a676147 application/x-www-form-urlencoded 514
+2020-06-11 09:40:46.1743|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "ManageUserClaims", controller = "Administration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ManageUserClaims(EmployeeManagement.ViewModels.UserClaimsViewModel) on controller EmployeeManagement.Controllers.AdministrationController (EmployeeManagement).
+2020-06-11 09:40:46.1743|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:40:46.1743|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:40:46.1803|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AdministrationController.ManageUserClaims (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:40:46.1803|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[City], [e].[ConcurrencyStamp], [e].[Email], [e].[EmailConfirmed], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-06-11 09:40:46.1803|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-11 09:40:46.2033|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[City], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-06-11 09:40:46.2033|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@p15='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p16='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [City] = @p1, [ConcurrencyStamp] = @p2, [Email] = @p3, [EmailConfirmed] = @p4, [LockoutEnabled] = @p5, [LockoutEnd] = @p6, [NormalizedEmail] = @p7, [NormalizedUserName] = @p8, [PasswordHash] = @p9, [PhoneNumber] = @p10, [PhoneNumberConfirmed] = @p11, [SecurityStamp] = @p12, [TwoFactorEnabled] = @p13, [UserName] = @p14
+WHERE [Id] = @p15 AND [ConcurrencyStamp] = @p16;
+SELECT @@ROWCOUNT;
+2020-06-11 09:40:46.2313|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[City], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-06-11 09:40:46.2573|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (18ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 450), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 450), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 450), @p24='?' (Size = 450), @p9='?' (DbType = Int32), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p25='?' (Size = 4000), @p12='?' (Size = 256), @p13='?' (DbType = Boolean), @p14='?' (DbType = Boolean), @p15='?' (DbType = DateTimeOffset), @p16='?' (Size = 256), @p17='?' (Size = 256), @p18='?' (Size = 4000), @p19='?' (Size = 4000), @p20='?' (DbType = Boolean), @p21='?' (Size = 4000), @p22='?' (DbType = Boolean), @p23='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [AspNetUserClaims] USING (
+VALUES (@p0, @p1, @p2, 0),
+(@p3, @p4, @p5, 1),
+(@p6, @p7, @p8, 2)) AS i ([ClaimType], [ClaimValue], [UserId], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([ClaimType], [ClaimValue], [UserId])
+VALUES (i.[ClaimType], i.[ClaimValue], i.[UserId])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [t].[Id] FROM [AspNetUserClaims] t
+INNER JOIN @inserted0 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p9, [City] = @p10, [ConcurrencyStamp] = @p11, [Email] = @p12, [EmailConfirmed] = @p13, [LockoutEnabled] = @p14, [LockoutEnd] = @p15, [NormalizedEmail] = @p16, [NormalizedUserName] = @p17, [PasswordHash] = @p18, [PhoneNumber] = @p19, [PhoneNumberConfirmed] = @p20, [SecurityStamp] = @p21, [TwoFactorEnabled] = @p22, [UserName] = @p23
+WHERE [Id] = @p24 AND [ConcurrencyStamp] = @p25;
+SELECT @@ROWCOUNT;
+2020-06-11 09:40:46.2723|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AdministrationController.ManageUserClaims (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 91.4931ms.
+2020-06-11 09:40:46.2723|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /Administration/EditUser/3072beda-7efc-40e2-b484-041d5a676147.
+2020-06-11 09:40:46.2723|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AdministrationController.ManageUserClaims (EmployeeManagement) in 98.2054ms
+2020-06-11 09:40:46.2723|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 109.6276ms 302 
+2020-06-11 09:40:46.2793|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/Administration/EditUser/3072beda-7efc-40e2-b484-041d5a676147  
+2020-06-11 09:40:46.2793|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "EditUser", controller = "Administration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditUser(System.String) on controller EmployeeManagement.Controllers.AdministrationController (EmployeeManagement).
+2020-06-11 09:40:46.2793|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:40:46.2793|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:40:46.2793|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AdministrationController.EditUser (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:40:46.2793|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[City], [e].[ConcurrencyStamp], [e].[Email], [e].[EmailConfirmed], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-06-11 09:40:46.2923|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-11 09:40:46.2923|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-06-11 09:40:46.2923|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AdministrationController.EditUser (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 11.3713ms.
+2020-06-11 09:40:46.2923|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view EditUser.
+2020-06-11 09:40:46.2923|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view EditUser executed in 3.7579ms.
+2020-06-11 09:40:46.2923|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AdministrationController.EditUser (EmployeeManagement) in 19.1403ms
+2020-06-11 09:40:46.2923|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 22.4753ms 200 text/html; charset=utf-8
+2020-06-11 09:40:53.2157|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:44327/account/logout application/x-www-form-urlencoded 225
+2020-06-11 09:40:53.2157|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller EmployeeManagement.Controllers.AccountController (EmployeeManagement).
+2020-06-11 09:40:53.2157|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:40:53.2157|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AccountController.Logout (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:40:53.2157|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed out.
+2020-06-11 09:40:53.2157|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.External signed out.
+2020-06-11 09:40:53.2157|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-06-11 09:40:53.2157|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AccountController.Logout (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 1.4235ms.
+2020-06-11 09:40:53.2157|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-06-11 09:40:53.2157|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AccountController.Logout (EmployeeManagement) in 3.7771ms
+2020-06-11 09:40:53.2157|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.1312ms 302 
+2020-06-11 09:40:53.2157|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM0DNKIP2LAB", Request id "0HM0DNKIP2LAB:0000000D": the application completed without reading the entire request body.
+2020-06-11 09:40:53.2417|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/  
+2020-06-11 09:40:53.2417|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller EmployeeManagement.Controllers.HomeController (EmployeeManagement).
+2020-06-11 09:40:53.2417|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:40:53.2417|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0171ms.
+2020-06-11 09:40:53.2417|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-11 09:40:53.2417|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Department], [e].[Email], [e].[Name], [e].[PhotoPath]
+FROM [Employees] AS [e]
+2020-06-11 09:40:53.2487|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 4.4703ms.
+2020-06-11 09:40:53.2487|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) in 5.654ms
+2020-06-11 09:40:53.2487|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.5449ms 200 text/html; charset=utf-8
+2020-06-11 09:40:55.0438|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/account/login  
+2020-06-11 09:40:55.0438|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller EmployeeManagement.Controllers.AccountController (EmployeeManagement).
+2020-06-11 09:40:55.0438|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AccountController.Login (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:40:55.0438|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AccountController.Login (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0376ms.
+2020-06-11 09:40:55.0438|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login.
+2020-06-11 09:40:55.0438|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 2.7201ms.
+2020-06-11 09:40:55.0438|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AccountController.Login (EmployeeManagement) in 8.3647ms
+2020-06-11 09:40:55.0438|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11.7741ms 200 text/html; charset=utf-8
+2020-06-11 09:40:56.1648|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:44327/account/externallogin application/x-www-form-urlencoded 200
+2020-06-11 09:40:56.1648|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "ExternalLogin", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ExternalLogin(System.String, System.String) on controller EmployeeManagement.Controllers.AccountController (EmployeeManagement).
+2020-06-11 09:40:56.2168|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AccountController.ExternalLogin (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:40:56.2168|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AccountController.ExternalLogin (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ChallengeResult in 0.0846ms.
+2020-06-11 09:40:56.2168|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (Facebook).
+2020-06-11 09:40:56.2168|INFO|Microsoft.AspNetCore.Authentication.Facebook.FacebookHandler|AuthenticationScheme: Facebook was challenged.
+2020-06-11 09:40:56.2168|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AccountController.ExternalLogin (EmployeeManagement) in 46.9905ms
+2020-06-11 09:40:56.2168|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 56.3417ms 302 
+2020-06-11 09:40:56.5768|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/signin-facebook?code=AQAz_OCx4ulARWoQnzfRTgvV-_4F2ijTEajIQeJzztIm6_VuetDagWEiK2Rdi0IeWoXWNcaRbA0fzHqWXDn0OqbtcrJd3YvyX3VEGY-gP98aUXY-xw9bl28t0G7DXddEXhFKjh9Mpx9QExvuayBK37iGz31i8LOAfEOtwudjoYVSmUW3Q3nStJimixcRUM1nNosD8hiEYMcTkMbtJnOC-VZx8q2t9irPqXhCwTXtrBN-3tEOnAE31r2alpBnrd7cYo_rhlAghcS98n4e7NxxfC0x6EhgDlazAoYRTcPOAHC46db3wCYrl8VMqGnkPePbmjGSLNi6X6FFwHDtKYUPSeGJhSmhDHYhzpdOmkd-6b_hRg&state=CfDJ8OppLAnSpZBBnOns_WVxN4JUFMlURE2imdF8ttw_eFeIwhRDgtRTNSWW6feZLj8kHMfzlVmmUqTcDcByay_BIA_6URHdTuXH9dqJJTnmzNnGjSVW8EG4H4M7Py253ykk_xlP4z15jsWLlTrAYuwkCim-OaQlRzu9g8Jnf85fgcEta_GA-HzjHh1EYDFztcaYo_rXnrMj2AEcILM4_A8FTPoISEMmKJASbcT656aQJHpGjM7yxqYFVIw6xRW7ukaUKbj5lpi7zinfP7puoqs-NZE  
+2020-06-11 09:40:57.2389|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.External signed in.
+2020-06-11 09:40:57.2389|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 663.1871ms 302 
+2020-06-11 09:40:57.2479|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/Account/ExternalloginCallback  
+2020-06-11 09:40:57.2479|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "ExternalLoginCallback", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExternalLoginCallback(System.String, System.String) on controller EmployeeManagement.Controllers.AccountController (EmployeeManagement).
+2020-06-11 09:40:57.2479|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AccountController.ExternalLoginCallback (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:40:57.2479|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__loginProvider_0='?' (Size = 450), @__providerKey_1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [userLogin].[LoginProvider], [userLogin].[ProviderKey], [userLogin].[ProviderDisplayName], [userLogin].[UserId]
+FROM [AspNetUserLogins] AS [userLogin]
+WHERE ([userLogin].[LoginProvider] = @__loginProvider_0) AND ([userLogin].[ProviderKey] = @__providerKey_1)
+2020-06-11 09:40:57.2709|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[AccessFailedCount], [u].[City], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[Id] = @__userId_0
+2020-06-11 09:40:57.2739|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.External signed out.
+2020-06-11 09:40:57.2739|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-11 09:40:57.2739|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-06-11 09:40:57.2739|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+2020-06-11 09:40:57.2739|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AspNetRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0
+2020-06-11 09:40:57.2739|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed in.
+2020-06-11 09:40:57.2739|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AccountController.ExternalLoginCallback (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult in 33.2839ms.
+2020-06-11 09:40:57.2879|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.LocalRedirectResultExecutor|Executing LocalRedirectResult, redirecting to /.
+2020-06-11 09:40:57.2879|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AccountController.ExternalLoginCallback (EmployeeManagement) in 38.3418ms
+2020-06-11 09:40:57.2879|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 41.9821ms 302 
+2020-06-11 09:40:57.2879|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/  
+2020-06-11 09:40:57.2879|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller EmployeeManagement.Controllers.HomeController (EmployeeManagement).
+2020-06-11 09:40:57.2879|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:40:57.2879|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0166ms.
+2020-06-11 09:40:57.2879|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-11 09:40:57.2879|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Department], [e].[Email], [e].[Name], [e].[PhotoPath]
+FROM [Employees] AS [e]
+2020-06-11 09:40:57.3029|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 4.0752ms.
+2020-06-11 09:40:57.3029|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) in 5.3722ms
+2020-06-11 09:40:57.3029|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.7365ms 200 text/html; charset=utf-8
+2020-06-11 09:40:59.8780|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/Administration/ListUsers  
+2020-06-11 09:40:59.8780|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "ListUsers", controller = "Administration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ListUsers() on controller EmployeeManagement.Controllers.AdministrationController (EmployeeManagement).
+2020-06-11 09:40:59.8780|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:40:59.8780|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:40:59.8780|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AdministrationController.ListUsers (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:40:59.8780|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AdministrationController.ListUsers (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0222ms.
+2020-06-11 09:40:59.8780|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view ListUsers.
+2020-06-11 09:40:59.8780|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[AccessFailedCount], [a].[City], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+2020-06-11 09:40:59.8940|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[AccessFailedCount], [a].[City], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+2020-06-11 09:40:59.8940|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view ListUsers executed in 7.8733ms.
+2020-06-11 09:40:59.8940|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AdministrationController.ListUsers (EmployeeManagement) in 11.311ms
+2020-06-11 09:40:59.8940|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 20.1662ms 200 text/html; charset=utf-8
+2020-06-11 09:41:02.3942|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/Administration/EditUser/3072beda-7efc-40e2-b484-041d5a676147  
+2020-06-11 09:41:02.3942|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "EditUser", controller = "Administration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditUser(System.String) on controller EmployeeManagement.Controllers.AdministrationController (EmployeeManagement).
+2020-06-11 09:41:02.3942|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:41:02.3942|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:41:02.3942|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AdministrationController.EditUser (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:41:02.4062|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[City], [e].[ConcurrencyStamp], [e].[Email], [e].[EmailConfirmed], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-06-11 09:41:02.4062|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-11 09:41:02.4062|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-06-11 09:41:02.4062|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AdministrationController.EditUser (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 12.0319ms.
+2020-06-11 09:41:02.4062|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view EditUser.
+2020-06-11 09:41:02.4062|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view EditUser executed in 2.9416ms.
+2020-06-11 09:41:02.4062|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AdministrationController.EditUser (EmployeeManagement) in 19.6192ms
+2020-06-11 09:41:02.4062|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 24.7088ms 200 text/html; charset=utf-8
+2020-06-11 09:41:04.3413|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/Administration/manageuserroles?userId=3072beda-7efc-40e2-b484-041d5a676147  
+2020-06-11 09:41:04.3413|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "ManageUserRoles", controller = "Administration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ManageUserRoles(System.String) on controller EmployeeManagement.Controllers.AdministrationController (EmployeeManagement).
+2020-06-11 09:41:04.3413|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:41:04.3413|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:41:04.3413|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed.
+2020-06-11 09:41:04.3413|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2020-06-11 09:41:04.3413|INFO|Microsoft.AspNetCore.Mvc.ForbidResult|Executing ForbidResult with authentication schemes ().
+2020-06-11 09:41:04.3613|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application was forbidden.
+2020-06-11 09:41:04.3613|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AdministrationController.ManageUserRoles (EmployeeManagement) in 19.2656ms
+2020-06-11 09:41:04.3613|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 22.2089ms 302 
+2020-06-11 09:41:04.3613|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/administration/accessdenied?ReturnUrl=%2FAdministration%2Fmanageuserroles%3FuserId%3D3072beda-7efc-40e2-b484-041d5a676147  
+2020-06-11 09:41:04.3733|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "AccessDenied", controller = "Administration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AccessDenied() on controller EmployeeManagement.Controllers.AdministrationController (EmployeeManagement).
+2020-06-11 09:41:04.3733|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AdministrationController.AccessDenied (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:41:04.3733|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AdministrationController.AccessDenied (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3391ms.
+2020-06-11 09:41:04.3733|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view AccessDenied.
+2020-06-11 09:41:04.3853|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view AccessDenied executed in 9.9152ms.
+2020-06-11 09:41:04.3853|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AdministrationController.AccessDenied (EmployeeManagement) in 12.2808ms
+2020-06-11 09:41:04.3853|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 18.011ms 200 text/html; charset=utf-8
+2020-06-11 09:41:04.4373|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/images/noaccess.jpg  
+2020-06-11 09:41:04.4503|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/images/noaccess.jpg'. Physical path: 'C:\ashish\core\EmployeeManagement\EmployeeManagement\wwwroot\images\noaccess.jpg'
+2020-06-11 09:41:04.4503|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 13.3593ms 200 image/jpeg
+2020-06-11 09:41:06.2224|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/Administration/EditUser/3072beda-7efc-40e2-b484-041d5a676147  
+2020-06-11 09:41:06.2224|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "EditUser", controller = "Administration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditUser(System.String) on controller EmployeeManagement.Controllers.AdministrationController (EmployeeManagement).
+2020-06-11 09:41:06.2264|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:41:06.2264|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:41:06.2264|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AdministrationController.EditUser (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:41:06.2264|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[City], [e].[ConcurrencyStamp], [e].[Email], [e].[EmailConfirmed], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-06-11 09:41:06.2264|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-11 09:41:06.2264|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-06-11 09:41:06.2264|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AdministrationController.EditUser (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 10.6447ms.
+2020-06-11 09:41:06.2264|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view EditUser.
+2020-06-11 09:41:06.2434|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view EditUser executed in 1.9576ms.
+2020-06-11 09:41:06.2434|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AdministrationController.EditUser (EmployeeManagement) in 17.2429ms
+2020-06-11 09:41:06.2434|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 21.8437ms 200 text/html; charset=utf-8
+2020-06-11 09:41:07.7425|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/Administration/ManageUserClaims?userId=3072beda-7efc-40e2-b484-041d5a676147  
+2020-06-11 09:41:07.7425|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "ManageUserClaims", controller = "Administration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ManageUserClaims(System.String) on controller EmployeeManagement.Controllers.AdministrationController (EmployeeManagement).
+2020-06-11 09:41:07.7425|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:41:07.7425|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:41:07.7425|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AdministrationController.ManageUserClaims (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:41:07.7785|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (32ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[City], [e].[ConcurrencyStamp], [e].[Email], [e].[EmailConfirmed], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-06-11 09:41:07.7785|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-11 09:41:07.7865|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AdministrationController.ManageUserClaims (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 41.3172ms.
+2020-06-11 09:41:07.7865|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view ManageUserClaims.
+2020-06-11 09:41:07.8135|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view ManageUserClaims executed in 24.6618ms.
+2020-06-11 09:41:07.8135|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AdministrationController.ManageUserClaims (EmployeeManagement) in 69.9234ms
+2020-06-11 09:41:07.8135|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 72.422ms 200 text/html; charset=utf-8
+2020-06-11 09:41:14.3899|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:44327/Administration/ManageUserClaims?userId=3072beda-7efc-40e2-b484-041d5a676147 application/x-www-form-urlencoded 484
+2020-06-11 09:41:14.3899|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "ManageUserClaims", controller = "Administration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ManageUserClaims(EmployeeManagement.ViewModels.UserClaimsViewModel) on controller EmployeeManagement.Controllers.AdministrationController (EmployeeManagement).
+2020-06-11 09:41:14.3899|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:41:14.3899|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:41:14.3899|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AdministrationController.ManageUserClaims (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:41:14.3899|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[City], [e].[ConcurrencyStamp], [e].[Email], [e].[EmailConfirmed], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-06-11 09:41:14.3899|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-11 09:41:14.4149|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__8__locals1_user_Id_0='?' (Size = 450), @__claim_Value_1='?' (Size = 4000), @__claim_Type_2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE (([uc].[UserId] = @__8__locals1_user_Id_0) AND ([uc].[ClaimValue] = @__claim_Value_1)) AND ([uc].[ClaimType] = @__claim_Type_2)
+2020-06-11 09:41:14.4229|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__8__locals1_user_Id_0='?' (Size = 450), @__claim_Value_1='?' (Size = 4000), @__claim_Type_2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE (([uc].[UserId] = @__8__locals1_user_Id_0) AND ([uc].[ClaimValue] = @__claim_Value_1)) AND ([uc].[ClaimType] = @__claim_Type_2)
+2020-06-11 09:41:14.4229|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__8__locals1_user_Id_0='?' (Size = 450), @__claim_Value_1='?' (Size = 4000), @__claim_Type_2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE (([uc].[UserId] = @__8__locals1_user_Id_0) AND ([uc].[ClaimValue] = @__claim_Value_1)) AND ([uc].[ClaimType] = @__claim_Type_2)
+2020-06-11 09:41:14.4229|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[City], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-06-11 09:41:14.4399|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p18='?' (Size = 450), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p19='?' (Size = 4000), @p6='?' (Size = 256), @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTimeOffset), @p10='?' (Size = 256), @p11='?' (Size = 256), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [AspNetUserClaims]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [AspNetUserClaims]
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [AspNetUserClaims]
+WHERE [Id] = @p2;
+SELECT @@ROWCOUNT;
+
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p3, [City] = @p4, [ConcurrencyStamp] = @p5, [Email] = @p6, [EmailConfirmed] = @p7, [LockoutEnabled] = @p8, [LockoutEnd] = @p9, [NormalizedEmail] = @p10, [NormalizedUserName] = @p11, [PasswordHash] = @p12, [PhoneNumber] = @p13, [PhoneNumberConfirmed] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+SELECT @@ROWCOUNT;
+2020-06-11 09:41:14.4399|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[City], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-06-11 09:41:14.4509|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 450), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 450), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 450), @p24='?' (Size = 450), @p9='?' (DbType = Int32), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p25='?' (Size = 4000), @p12='?' (Size = 256), @p13='?' (DbType = Boolean), @p14='?' (DbType = Boolean), @p15='?' (DbType = DateTimeOffset), @p16='?' (Size = 256), @p17='?' (Size = 256), @p18='?' (Size = 4000), @p19='?' (Size = 4000), @p20='?' (DbType = Boolean), @p21='?' (Size = 4000), @p22='?' (DbType = Boolean), @p23='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [AspNetUserClaims] USING (
+VALUES (@p0, @p1, @p2, 0),
+(@p3, @p4, @p5, 1),
+(@p6, @p7, @p8, 2)) AS i ([ClaimType], [ClaimValue], [UserId], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([ClaimType], [ClaimValue], [UserId])
+VALUES (i.[ClaimType], i.[ClaimValue], i.[UserId])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [t].[Id] FROM [AspNetUserClaims] t
+INNER JOIN @inserted0 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p9, [City] = @p10, [ConcurrencyStamp] = @p11, [Email] = @p12, [EmailConfirmed] = @p13, [LockoutEnabled] = @p14, [LockoutEnd] = @p15, [NormalizedEmail] = @p16, [NormalizedUserName] = @p17, [PasswordHash] = @p18, [PhoneNumber] = @p19, [PhoneNumberConfirmed] = @p20, [SecurityStamp] = @p21, [TwoFactorEnabled] = @p22, [UserName] = @p23
+WHERE [Id] = @p24 AND [ConcurrencyStamp] = @p25;
+SELECT @@ROWCOUNT;
+2020-06-11 09:41:14.4509|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AdministrationController.ManageUserClaims (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 57.8294ms.
+2020-06-11 09:41:14.4509|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /Administration/EditUser/3072beda-7efc-40e2-b484-041d5a676147.
+2020-06-11 09:41:14.4509|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AdministrationController.ManageUserClaims (EmployeeManagement) in 60.9771ms
+2020-06-11 09:41:14.4509|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 63.2576ms 302 
+2020-06-11 09:41:14.4509|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/Administration/EditUser/3072beda-7efc-40e2-b484-041d5a676147  
+2020-06-11 09:41:14.4629|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "EditUser", controller = "Administration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditUser(System.String) on controller EmployeeManagement.Controllers.AdministrationController (EmployeeManagement).
+2020-06-11 09:41:14.4629|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:41:14.4629|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:41:14.4629|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AdministrationController.EditUser (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:41:14.4629|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[City], [e].[ConcurrencyStamp], [e].[Email], [e].[EmailConfirmed], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-06-11 09:41:14.4629|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-11 09:41:14.4629|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-06-11 09:41:14.4629|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AdministrationController.EditUser (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 10.9992ms.
+2020-06-11 09:41:14.4629|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view EditUser.
+2020-06-11 09:41:14.4629|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view EditUser executed in 1.7151ms.
+2020-06-11 09:41:14.4629|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AdministrationController.EditUser (EmployeeManagement) in 14.6511ms
+2020-06-11 09:41:14.4629|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 16.7815ms 200 text/html; charset=utf-8
+2020-06-11 09:41:16.1330|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/Administration/ManageUserClaims?userId=3072beda-7efc-40e2-b484-041d5a676147  
+2020-06-11 09:41:16.1330|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "ManageUserClaims", controller = "Administration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ManageUserClaims(System.String) on controller EmployeeManagement.Controllers.AdministrationController (EmployeeManagement).
+2020-06-11 09:41:16.1330|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:41:16.1330|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:41:16.1330|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AdministrationController.ManageUserClaims (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:41:16.1330|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[City], [e].[ConcurrencyStamp], [e].[Email], [e].[EmailConfirmed], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-06-11 09:41:16.1550|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (6ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-11 09:41:16.1550|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AdministrationController.ManageUserClaims (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 16.495ms.
+2020-06-11 09:41:16.1550|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view ManageUserClaims.
+2020-06-11 09:41:16.1900|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view ManageUserClaims executed in 30.4141ms.
+2020-06-11 09:41:16.1900|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AdministrationController.ManageUserClaims (EmployeeManagement) in 58.0376ms
+2020-06-11 09:41:16.1900|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 60.8185ms 200 text/html; charset=utf-8
+2020-06-11 09:41:18.2011|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:44327/Administration/ManageUserClaims?userId=3072beda-7efc-40e2-b484-041d5a676147 application/x-www-form-urlencoded 514
+2020-06-11 09:41:18.2011|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "ManageUserClaims", controller = "Administration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ManageUserClaims(EmployeeManagement.ViewModels.UserClaimsViewModel) on controller EmployeeManagement.Controllers.AdministrationController (EmployeeManagement).
+2020-06-11 09:41:18.2011|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:41:18.2011|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:41:18.2011|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AdministrationController.ManageUserClaims (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:41:18.2121|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[City], [e].[ConcurrencyStamp], [e].[Email], [e].[EmailConfirmed], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-06-11 09:41:18.2121|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-11 09:41:18.2121|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__8__locals1_user_Id_0='?' (Size = 450), @__claim_Value_1='?' (Size = 4000), @__claim_Type_2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE (([uc].[UserId] = @__8__locals1_user_Id_0) AND ([uc].[ClaimValue] = @__claim_Value_1)) AND ([uc].[ClaimType] = @__claim_Type_2)
+2020-06-11 09:41:18.2121|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__8__locals1_user_Id_0='?' (Size = 450), @__claim_Value_1='?' (Size = 4000), @__claim_Type_2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE (([uc].[UserId] = @__8__locals1_user_Id_0) AND ([uc].[ClaimValue] = @__claim_Value_1)) AND ([uc].[ClaimType] = @__claim_Type_2)
+2020-06-11 09:41:18.2291|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (6ms) [Parameters=[@__8__locals1_user_Id_0='?' (Size = 450), @__claim_Value_1='?' (Size = 4000), @__claim_Type_2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE (([uc].[UserId] = @__8__locals1_user_Id_0) AND ([uc].[ClaimValue] = @__claim_Value_1)) AND ([uc].[ClaimType] = @__claim_Type_2)
+2020-06-11 09:41:18.2291|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[City], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-06-11 09:41:18.2291|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p18='?' (Size = 450), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p19='?' (Size = 4000), @p6='?' (Size = 256), @p7='?' (DbType = Boolean), @p8='?' (DbType = Boolean), @p9='?' (DbType = DateTimeOffset), @p10='?' (Size = 256), @p11='?' (Size = 256), @p12='?' (Size = 4000), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [AspNetUserClaims]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [AspNetUserClaims]
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [AspNetUserClaims]
+WHERE [Id] = @p2;
+SELECT @@ROWCOUNT;
+
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p3, [City] = @p4, [ConcurrencyStamp] = @p5, [Email] = @p6, [EmailConfirmed] = @p7, [LockoutEnabled] = @p8, [LockoutEnd] = @p9, [NormalizedEmail] = @p10, [NormalizedUserName] = @p11, [PasswordHash] = @p12, [PhoneNumber] = @p13, [PhoneNumberConfirmed] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+SELECT @@ROWCOUNT;
+2020-06-11 09:41:18.2391|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[City], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+2020-06-11 09:41:18.2391|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 450), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 450), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 450), @p24='?' (Size = 450), @p9='?' (DbType = Int32), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p25='?' (Size = 4000), @p12='?' (Size = 256), @p13='?' (DbType = Boolean), @p14='?' (DbType = Boolean), @p15='?' (DbType = DateTimeOffset), @p16='?' (Size = 256), @p17='?' (Size = 256), @p18='?' (Size = 4000), @p19='?' (Size = 4000), @p20='?' (DbType = Boolean), @p21='?' (Size = 4000), @p22='?' (DbType = Boolean), @p23='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [AspNetUserClaims] USING (
+VALUES (@p0, @p1, @p2, 0),
+(@p3, @p4, @p5, 1),
+(@p6, @p7, @p8, 2)) AS i ([ClaimType], [ClaimValue], [UserId], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([ClaimType], [ClaimValue], [UserId])
+VALUES (i.[ClaimType], i.[ClaimValue], i.[UserId])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [t].[Id] FROM [AspNetUserClaims] t
+INNER JOIN @inserted0 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p9, [City] = @p10, [ConcurrencyStamp] = @p11, [Email] = @p12, [EmailConfirmed] = @p13, [LockoutEnabled] = @p14, [LockoutEnd] = @p15, [NormalizedEmail] = @p16, [NormalizedUserName] = @p17, [PasswordHash] = @p18, [PhoneNumber] = @p19, [PhoneNumberConfirmed] = @p20, [SecurityStamp] = @p21, [TwoFactorEnabled] = @p22, [UserName] = @p23
+WHERE [Id] = @p24 AND [ConcurrencyStamp] = @p25;
+SELECT @@ROWCOUNT;
+2020-06-11 09:41:18.2391|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AdministrationController.ManageUserClaims (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 40.6343ms.
+2020-06-11 09:41:18.2391|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /Administration/EditUser/3072beda-7efc-40e2-b484-041d5a676147.
+2020-06-11 09:41:18.2391|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AdministrationController.ManageUserClaims (EmployeeManagement) in 44.2524ms
+2020-06-11 09:41:18.2391|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 47.8521ms 302 
+2020-06-11 09:41:18.2601|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/Administration/EditUser/3072beda-7efc-40e2-b484-041d5a676147  
+2020-06-11 09:41:18.2601|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "EditUser", controller = "Administration"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] EditUser(System.String) on controller EmployeeManagement.Controllers.AdministrationController (EmployeeManagement).
+2020-06-11 09:41:18.2601|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:41:18.2601|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:41:18.2601|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AdministrationController.EditUser (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:41:18.2601|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[City], [e].[ConcurrencyStamp], [e].[Email], [e].[EmailConfirmed], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-06-11 09:41:18.2711|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-11 09:41:18.2711|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-06-11 09:41:18.2711|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AdministrationController.EditUser (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 13.0839ms.
+2020-06-11 09:41:18.2711|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view EditUser.
+2020-06-11 09:41:18.2711|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view EditUser executed in 5.004ms.
+2020-06-11 09:41:18.2711|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AdministrationController.EditUser (EmployeeManagement) in 21.4332ms
+2020-06-11 09:41:18.2711|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 24.0674ms 200 text/html; charset=utf-8
+2020-06-11 09:41:19.9122|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/  
+2020-06-11 09:41:19.9122|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller EmployeeManagement.Controllers.HomeController (EmployeeManagement).
+2020-06-11 09:41:19.9122|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:41:19.9122|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0162ms.
+2020-06-11 09:41:19.9122|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-11 09:41:19.9122|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Department], [e].[Email], [e].[Name], [e].[PhotoPath]
+FROM [Employees] AS [e]
+2020-06-11 09:41:19.9122|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 4.1599ms.
+2020-06-11 09:41:19.9122|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) in 5.379ms
+2020-06-11 09:41:19.9122|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.5975ms 200 text/html; charset=utf-8
+2020-06-11 09:41:22.5903|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:44327/account/logout application/x-www-form-urlencoded 225
+2020-06-11 09:41:22.5953|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller EmployeeManagement.Controllers.AccountController (EmployeeManagement).
+2020-06-11 09:41:22.5953|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 09:41:22.5953|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AccountController.Logout (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:41:22.5953|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed out.
+2020-06-11 09:41:22.5953|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.External signed out.
+2020-06-11 09:41:22.5953|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-06-11 09:41:22.5953|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AccountController.Logout (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 1.7079ms.
+2020-06-11 09:41:22.5953|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-06-11 09:41:22.5953|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AccountController.Logout (EmployeeManagement) in 4.0192ms
+2020-06-11 09:41:22.5953|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.8513ms 302 
+2020-06-11 09:41:22.5953|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM0DNKIP2LAB", Request id "0HM0DNKIP2LAB:00000017": the application completed without reading the entire request body.
+2020-06-11 09:41:22.6133|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/  
+2020-06-11 09:41:22.6133|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller EmployeeManagement.Controllers.HomeController (EmployeeManagement).
+2020-06-11 09:41:22.6133|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:41:22.6133|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0252ms.
+2020-06-11 09:41:22.6133|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-11 09:41:22.6133|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Department], [e].[Email], [e].[Name], [e].[PhotoPath]
+FROM [Employees] AS [e]
+2020-06-11 09:41:22.6133|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 4.4575ms.
+2020-06-11 09:41:22.6223|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) in 6.5028ms
+2020-06-11 09:41:22.6223|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.5774ms 200 text/html; charset=utf-8
+2020-06-11 09:42:23.2698|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Pariksheet\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-11 09:42:23.9498|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:49266/  0
+2020-06-11 09:42:23.9498|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/  
+2020-06-11 09:42:24.0198|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 67.6476ms 200 
+2020-06-11 09:42:24.2989|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller EmployeeManagement.Controllers.HomeController (EmployeeManagement).
+2020-06-11 09:42:24.5989|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:42:24.6069|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.4509ms.
+2020-06-11 09:42:24.6529|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-11 09:42:25.1329|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2020-06-11 09:42:25.4389|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Department], [e].[Email], [e].[Name], [e].[PhotoPath]
+FROM [Employees] AS [e]
+2020-06-11 09:42:25.6389|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 1017.2652ms.
+2020-06-11 09:42:25.6389|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) in 1340.5712ms
+2020-06-11 09:42:25.6649|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1716.9567ms 200 text/html; charset=utf-8
+2020-06-11 09:42:36.4946|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/account/login  
+2020-06-11 09:42:36.5256|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String) on controller EmployeeManagement.Controllers.AccountController (EmployeeManagement).
+2020-06-11 09:42:36.5406|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AccountController.Login (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:42:36.5516|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AccountController.Login (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 7.5171ms.
+2020-06-11 09:42:36.5516|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Login.
+2020-06-11 09:42:36.6376|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Login executed in 84.2949ms.
+2020-06-11 09:42:36.6376|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AccountController.Login (EmployeeManagement) in 111.59ms
+2020-06-11 09:42:36.6376|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 145.9088ms 200 text/html; charset=utf-8
+2020-06-11 09:42:38.2427|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:44327/account/externallogin application/x-www-form-urlencoded 200
+2020-06-11 09:42:38.2427|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "ExternalLogin", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ExternalLogin(System.String, System.String) on controller EmployeeManagement.Controllers.AccountController (EmployeeManagement).
+2020-06-11 09:42:38.2947|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AccountController.ExternalLogin (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:43:12.7376|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AccountController.ExternalLogin (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ChallengeResult in 34423.721ms.
+2020-06-11 09:43:12.7376|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (Facebook).
+2020-06-11 09:43:12.7536|INFO|Microsoft.AspNetCore.Authentication.Facebook.FacebookHandler|AuthenticationScheme: Facebook was challenged.
+2020-06-11 09:43:12.7536|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AccountController.ExternalLogin (EmployeeManagement) in 34501.7389ms
+2020-06-11 09:43:12.7536|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 34511.5592ms 302 
+2020-06-11 09:43:13.8537|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/signin-facebook?code=AQBgd6Gp3GQ_t-tSL8048dCooj2EUTOA6VPylWJ45K7x05XqsVac7o8lgDLpSP9FVaZ-BAr7WgPZ2aSbOaNkzZaE25aFnccJBLeXjfA5WEBo6CtoS3eXyCQkpgwVADj78DzoDQabYKaHuEo4o0jEUwhCS63VZO6k0_z5UzsED5Vk_-pkJsdemWXM6zl8Dd6tPW-4Wi7gy22E_6NzN74G7GEh6szant1gxXTISfiDKm1SUGzS6TKZLAJOhwue8eQgGHH_jglnoM0S0YbcBVSRDadJckfjAkDBcIvwU5VHG7wboZzZp5kAVtJRXQUdflTENkrtBwN5lLA3ELRCmgX75fwHP2HYQu53IB6DvJK8UT8w5g&state=CfDJ8OppLAnSpZBBnOns_WVxN4Iu7XSWOn3wiqe8BMkpTZcElFn9E7jov6wjDZ2jRZoBNP5-rx5f_dQCxOeypg_n6xWapt6H3KWkjTc5o8bSbCvXrWQJ_ep6LRWKVFL9jAbj5Tkhn5Duf4vwsGGCVhlosfroRBDAq7h2SbVqHUExth4tXzCgdFJaA12yUgPyho7LnYb-OVz49O4Q3TUs7QRkM2B1Ihv8pXgXtbCEe8NqphAb3WYpiSwV-ntifxyfSxxAuEsuWzWBZJiXh9RMHmTkjtU  
+2020-06-11 09:43:15.1188|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.External signed in.
+2020-06-11 09:43:15.1188|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1271.6801ms 302 
+2020-06-11 09:43:15.1338|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/Account/ExternalloginCallback  
+2020-06-11 09:43:15.1338|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "ExternalLoginCallback", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExternalLoginCallback(System.String, System.String) on controller EmployeeManagement.Controllers.AccountController (EmployeeManagement).
+2020-06-11 09:43:19.0260|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AccountController.ExternalLoginCallback (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:43:33.3658|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (21ms) [Parameters=[@__loginProvider_0='?' (Size = 450), @__providerKey_1='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [userLogin].[LoginProvider], [userLogin].[ProviderKey], [userLogin].[ProviderDisplayName], [userLogin].[UserId]
+FROM [AspNetUserLogins] AS [userLogin]
+WHERE ([userLogin].[LoginProvider] = @__loginProvider_0) AND ([userLogin].[ProviderKey] = @__providerKey_1)
+2020-06-11 09:43:33.4868|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (9ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[AccessFailedCount], [u].[City], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[Id] = @__userId_0
+2020-06-11 09:43:33.5388|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.External signed out.
+2020-06-11 09:43:33.5868|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-11 09:43:33.6518|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (6ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-06-11 09:43:33.6758|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+2020-06-11 09:43:33.7128|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AspNetRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0
+2020-06-11 09:43:33.7128|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed in.
+2020-06-11 09:43:36.6190|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AccountController.ExternalLoginCallback (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult in 17590.476ms.
+2020-06-11 09:43:36.6270|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.LocalRedirectResultExecutor|Executing LocalRedirectResult, redirecting to /.
+2020-06-11 09:43:36.6270|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AccountController.ExternalLoginCallback (EmployeeManagement) in 21488.6549ms
+2020-06-11 09:43:36.6270|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 21499.2574ms 302 
+2020-06-11 09:43:36.6570|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/  
+2020-06-11 09:43:36.6880|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller EmployeeManagement.Controllers.HomeController (EmployeeManagement).
+2020-06-11 09:43:36.6890|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) - Validation state: Valid
+2020-06-11 09:43:36.6890|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1766ms.
+2020-06-11 09:43:36.6890|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-11 09:43:36.6890|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Department], [e].[Email], [e].[Name], [e].[PhotoPath]
+FROM [Employees] AS [e]
+2020-06-11 09:43:36.7170|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 25.3994ms.
+2020-06-11 09:43:36.7170|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) in 28.3885ms
+2020-06-11 09:43:36.7170|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 62.3767ms 200 text/html; charset=utf-8
+2020-06-11 10:07:10.6869|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Pariksheet\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-11 10:07:11.2439|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/  
+2020-06-11 10:07:11.2439|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:49266/  0
+2020-06-11 10:07:11.3009|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 55.0447ms 200 
+2020-06-11 10:08:18.6918|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2020-06-11 10:08:18.7808|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 67535.2542ms 500 text/html; charset=utf-8
+2020-06-11 10:14:18.4844|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Pariksheet\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-11 10:14:19.2614|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/  
+2020-06-11 10:14:19.2614|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:49266/  0
+2020-06-11 10:14:19.3244|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 58.6838ms 200 
+2020-06-11 10:14:25.1847|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2020-06-11 10:14:25.2597|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5999.013ms 500 text/html; charset=utf-8
+2020-06-11 10:15:38.7699|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Pariksheet\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-11 10:15:39.3460|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/  
+2020-06-11 10:15:39.3460|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:49266/  0
+2020-06-11 10:15:39.4010|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 53.9419ms 200 
+2020-06-11 10:15:51.1166|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2020-06-11 10:15:51.1897|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11844.3114ms 500 text/html; charset=utf-8
+2020-06-11 10:18:24.4684|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Pariksheet\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-11 10:18:25.1965|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/  
+2020-06-11 10:18:25.1965|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:49266/  0
+2020-06-11 10:18:25.2635|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 64.6179ms 200 
+2020-06-11 10:18:33.9440|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2020-06-11 10:18:34.0170|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8821.7749ms 500 text/html; charset=utf-8
+2020-06-11 10:20:06.5703|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Pariksheet\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-11 10:20:07.3463|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/  
+2020-06-11 10:20:07.3523|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:49266/  0
+2020-06-11 10:20:07.4053|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 50.2618ms 200 
+2020-06-11 10:23:36.7893|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Pariksheet\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-11 10:23:37.3833|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:49266/  0
+2020-06-11 10:23:37.3833|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/  
+2020-06-11 10:23:37.4413|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 56.0577ms 200 
+2020-06-11 10:23:46.9289|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2020-06-11 10:23:47.0179|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9635.8116ms 500 text/html; charset=utf-8
+2020-06-11 10:30:05.7825|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Pariksheet\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-06-11 10:30:06.5686|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/  
+2020-06-11 10:30:06.5686|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:49266/  0
+2020-06-11 10:30:06.6376|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 65.6852ms 200 
+2020-06-11 10:30:07.4866|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2020-06-11 10:30:09.4667|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (45ms) [Parameters=[@__get_Item_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[AccessFailedCount], [e].[City], [e].[ConcurrencyStamp], [e].[Email], [e].[EmailConfirmed], [e].[LockoutEnabled], [e].[LockoutEnd], [e].[NormalizedEmail], [e].[NormalizedUserName], [e].[PasswordHash], [e].[PhoneNumber], [e].[PhoneNumberConfirmed], [e].[SecurityStamp], [e].[TwoFactorEnabled], [e].[UserName]
+FROM [AspNetUsers] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-06-11 10:30:09.7038|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (30ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [uc].[Id], [uc].[ClaimType], [uc].[ClaimValue], [uc].[UserId]
+FROM [AspNetUserClaims] AS [uc]
+WHERE [uc].[UserId] = @__user_Id_0
+2020-06-11 10:30:10.0128|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (50ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0
+2020-06-11 10:30:10.0588|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[ConcurrencyStamp], [r].[Name], [r].[NormalizedName]
+FROM [AspNetRoles] AS [r]
+WHERE [r].[NormalizedName] = @__normalizedName_0
+2020-06-11 10:30:10.1088|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__role_Id_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT [rc].[ClaimType], [rc].[ClaimValue]
+FROM [AspNetRoleClaims] AS [rc]
+WHERE [rc].[RoleId] = @__role_Id_0
+2020-06-11 10:30:10.3868|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller EmployeeManagement.Controllers.HomeController (EmployeeManagement).
+2020-06-11 10:30:10.4098|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) - Validation state: Valid
+2020-06-11 10:30:10.4098|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.5471ms.
+2020-06-11 10:30:10.4538|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-11 10:30:10.6098|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Department], [e].[Email], [e].[Name], [e].[PhotoPath]
+FROM [Employees] AS [e]
+2020-06-11 10:30:10.8078|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 377.7491ms.
+2020-06-11 10:30:10.8078|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) in 420.7097ms
+2020-06-11 10:30:10.8318|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4265.2957ms 200 text/html; charset=utf-8
+2020-06-11 10:30:14.3800|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:44327/account/logout application/x-www-form-urlencoded 225
+2020-06-11 10:30:14.4020|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Logout", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller EmployeeManagement.Controllers.AccountController (EmployeeManagement).
+2020-06-11 10:30:14.4140|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.
+2020-06-11 10:30:14.4140|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.AccountController.Logout (EmployeeManagement) - Validation state: Valid
+2020-06-11 10:30:14.4330|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.Application signed out.
+2020-06-11 10:30:14.4330|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.External signed out.
+2020-06-11 10:30:14.4330|INFO|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2020-06-11 10:30:14.4330|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.AccountController.Logout (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 21.0218ms.
+2020-06-11 10:30:14.4330|INFO|Microsoft.AspNetCore.Mvc.RedirectToActionResult|Executing RedirectResult, redirecting to /.
+2020-06-11 10:30:14.4330|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.AccountController.Logout (EmployeeManagement) in 39.0649ms
+2020-06-11 10:30:14.4430|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 63.0947ms 302 
+2020-06-11 10:30:14.4430|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:44327/  
+2020-06-11 10:30:14.4430|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller EmployeeManagement.Controllers.HomeController (EmployeeManagement).
+2020-06-11 10:30:14.4430|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) - Validation state: Valid
+2020-06-11 10:30:14.4430|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0765ms.
+2020-06-11 10:30:14.4430|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-06-11 10:30:14.4640|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Department], [e].[Email], [e].[Name], [e].[PhotoPath]
+FROM [Employees] AS [e]
+2020-06-11 10:30:14.4640|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM0DOH7GVNES", Request id "0HM0DOH7GVNES:00000002": the application completed without reading the entire request body.
+2020-06-11 10:30:14.4640|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 12.8547ms.
+2020-06-11 10:30:14.4640|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) in 15.7702ms
+2020-06-11 10:30:14.4640|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 18.8653ms 200 text/html; charset=utf-8

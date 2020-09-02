@@ -1,0 +1,7 @@
+2020-06-05 08:41:05.2600|WARN|EmployeeManagement.Controllers.ErrorController| 404 error occured. Path = /favicon.ico and Querystring = 
+2020-06-05 09:02:07.5259|WARN|Microsoft.AspNetCore.Identity.UserManager|Invalid password for user 0b024db8-f4c1-4ee3-9bf2-e2aecc771c74.
+2020-06-05 09:02:07.6189|WARN|Microsoft.AspNetCore.Identity.SignInManager|User 0b024db8-f4c1-4ee3-9bf2-e2aecc771c74 failed to provide the correct password.
+2020-06-05 09:02:28.3925|WARN|EmployeeManagement.Controllers.ErrorController| 404 error occured. Path = /Account/AccessDenied and Querystring = ?ReturnUrl=%2Fadministration%2Flistroles
+2020-06-05 09:11:08.6672|WARN|EmployeeManagement.Controllers.ErrorController| 404 error occured. Path = /Account/AccessDenied and Querystring = ?ReturnUrl=%2Fadministration%2Flistroles
+2020-06-05 12:16:24.6639|WARN|EmployeeManagement.Controllers.ErrorController| 404 error occured. Path = /Administration/EditUser/0a032d83-d3f0-4d48-9b30-469df36bd8fb and Querystring = 
+2020-06-05 12:25:01.5276|WARN|Microsoft.AspNetCore.Identity.UserManager|User 0b024db8-f4c1-4ee3-9bf2-e2aecc771c74 validation failed: DuplicateUserName.

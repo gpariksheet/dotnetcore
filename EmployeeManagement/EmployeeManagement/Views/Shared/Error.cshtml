@@ -1,0 +1,13 @@
+﻿
+@if (ViewBag.ErrorTitle == null)
+{
+    <div class="alert alert-danger mt-1 mb-1">
+        <h3>Error occured while processing your request.</h3>
+        <hr />
+    </div>
+}
+else
+{
+    <h1 class="text-danger">@ViewBag.ErrorTitle</h1>
+    <h6 class="text-danger">@ViewBag.ErrorMessage</h6>
+}

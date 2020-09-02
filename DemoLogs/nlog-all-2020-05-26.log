@@ -1,0 +1,52 @@
+2020-05-26 10:13:40.4212|TRACE|EmployeeManagement.Controllers.HomeController|Trace Log
+2020-05-26 10:13:40.4862|DEBUG|EmployeeManagement.Controllers.HomeController|Debug Log
+2020-05-26 10:13:40.4862|INFO|EmployeeManagement.Controllers.HomeController|Information Log
+2020-05-26 10:13:40.4862|WARN|EmployeeManagement.Controllers.HomeController|Warning Log
+2020-05-26 10:13:40.4862|ERROR|EmployeeManagement.Controllers.HomeController|Error Log
+2020-05-26 10:13:40.5012|FATAL|EmployeeManagement.Controllers.HomeController|Critical Log
+2020-05-26 10:13:40.5012|TRACE|EmployeeManagement.Models.SQLEmployeeRepository|Trace Log
+2020-05-26 10:13:40.5012|DEBUG|EmployeeManagement.Models.SQLEmployeeRepository|Debug Log
+2020-05-26 10:13:40.5012|INFO|EmployeeManagement.Models.SQLEmployeeRepository|Information Log
+2020-05-26 10:13:40.5012|WARN|EmployeeManagement.Models.SQLEmployeeRepository|Warning Log
+2020-05-26 10:13:40.5012|ERROR|EmployeeManagement.Models.SQLEmployeeRepository|Error Log
+2020-05-26 10:13:40.5182|FATAL|EmployeeManagement.Models.SQLEmployeeRepository|Critical Log
+2020-05-26 10:17:24.4650|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Pariksheet\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-05-26 10:17:37.3187|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/  
+2020-05-26 10:17:37.4947|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Index() on controller EmployeeManagement.Controllers.HomeController (EmployeeManagement).
+2020-05-26 10:17:37.5907|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) - Validation state: Valid
+2020-05-26 10:17:37.5967|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.3863ms.
+2020-05-26 10:17:37.6277|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Index.
+2020-05-26 10:17:37.9238|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.6-servicing-10079 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+2020-05-26 10:17:38.1418|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Department], [e].[Email], [e].[Name], [e].[PhotoPath]
+FROM [Employees] AS [e]
+2020-05-26 10:17:38.2698|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Index executed in 662.1918ms.
+2020-05-26 10:17:38.2698|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.HomeController.Index (EmployeeManagement) in 776.3592ms
+2020-05-26 10:17:38.2868|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 968.1531ms 200 text/html; charset=utf-8
+2020-05-26 10:17:40.0429|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/home/details/1  
+2020-05-26 10:17:40.0659|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Details", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ViewResult Details(System.Nullable`1[System.Int32]) on controller EmployeeManagement.Controllers.HomeController (EmployeeManagement).
+2020-05-26 10:17:40.0899|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method EmployeeManagement.Controllers.HomeController.Details (EmployeeManagement) - Validation state: Valid
+2020-05-26 10:17:40.0899|TRACE|EmployeeManagement.Controllers.HomeController|Trace Log
+2020-05-26 10:17:40.0899|DEBUG|EmployeeManagement.Controllers.HomeController|Debug Log
+2020-05-26 10:17:40.0899|INFO|EmployeeManagement.Controllers.HomeController|Information Log
+2020-05-26 10:17:40.0899|WARN|EmployeeManagement.Controllers.HomeController|Warning Log
+2020-05-26 10:17:40.0899|ERROR|EmployeeManagement.Controllers.HomeController|Error Log
+2020-05-26 10:17:40.0899|FATAL|EmployeeManagement.Controllers.HomeController|Critical Log
+2020-05-26 10:17:40.0899|TRACE|EmployeeManagement.Models.SQLEmployeeRepository|Trace Log
+2020-05-26 10:17:40.0899|DEBUG|EmployeeManagement.Models.SQLEmployeeRepository|Debug Log
+2020-05-26 10:17:40.0899|INFO|EmployeeManagement.Models.SQLEmployeeRepository|Information Log
+2020-05-26 10:17:40.0899|WARN|EmployeeManagement.Models.SQLEmployeeRepository|Warning Log
+2020-05-26 10:17:40.0899|ERROR|EmployeeManagement.Models.SQLEmployeeRepository|Error Log
+2020-05-26 10:17:40.0899|FATAL|EmployeeManagement.Models.SQLEmployeeRepository|Critical Log
+2020-05-26 10:17:40.1559|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Department], [e].[Email], [e].[Name], [e].[PhotoPath]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__get_Item_0
+2020-05-26 10:17:40.1679|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method EmployeeManagement.Controllers.HomeController.Details (EmployeeManagement), returned result Microsoft.AspNetCore.Mvc.ViewResult in 77.5448ms.
+2020-05-26 10:17:40.1679|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view Details.
+2020-05-26 10:17:40.1919|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view Details executed in 23.5158ms.
+2020-05-26 10:17:40.1919|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action EmployeeManagement.Controllers.HomeController.Details (EmployeeManagement) in 126.287ms
+2020-05-26 10:17:40.1919|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 151.2645ms 200 text/html; charset=utf-8
+2020-05-26 10:17:40.2349|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:5000/js/CustomScript.js  
+2020-05-26 10:17:40.2499|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/CustomScript.js'. Physical path: 'C:\ashish\core\EmployeeManagement\EmployeeManagement\wwwroot\js\CustomScript.js'
+2020-05-26 10:17:40.2499|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 15.6989ms 200 application/javascript

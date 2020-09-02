@@ -1,0 +1,10 @@
+
+1. CD to project root directory
+C:\Windows\System32>cd C:\ashish\core\EmployeeManagement\EmployeeManagement
+
+2. Add Migration class
+C:\ashish\core\EmployeeManagement\EmployeeManagement>dotnet ef migrations add InitialMigration
+
+3. Update Database to the latest migration
+C:\ashish\core\EmployeeManagement\EmployeeManagement>dotnet ef database update
+
